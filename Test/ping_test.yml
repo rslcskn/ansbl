@@ -1,8 +1,9 @@
 ---
+- hosts: win 
 
-- hosts: all
+  tasks: 
 
-  tasks:
-	- name: ping
-      shell: ping -c 1 -w 2 8.8.8.8
-      ignore_errors: true
+   - name: Deneysel Seyler
+     win_service:
+       name: Windows Update
+       state: stopped
