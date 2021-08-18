@@ -4,6 +4,4 @@
   tasks: 
 
    - name: Deneysel Seyler
-     win_service:
-       name: Spooler
-       state: stopped
+     win_command: whoami.exe
