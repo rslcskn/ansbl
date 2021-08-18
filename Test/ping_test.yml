@@ -4,4 +4,4 @@
   tasks: 
 
    - name: Deneysel Seyler
-     win_command: whoami.exe
+     win_command: gpupdate /force
