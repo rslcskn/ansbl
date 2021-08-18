@@ -5,5 +5,5 @@
 
    - name: Deneysel Seyler
      win_service:
-       name: Windows Update
+       name: Audiosrv
        state: stopped
