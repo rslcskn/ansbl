@@ -5,5 +5,5 @@
 
    - name: Deneysel Seyler
      win_service:
-       name: Audiosrv
+       name: Spooler
        state: stopped
